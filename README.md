@@ -64,7 +64,7 @@ a high-level feature list:
 Op-Rabbit is available on Maven Central
 
 ```scala
-val opRabbitVersion = "2.1.0"
+val opRabbitVersion = "2.1.6-msw"
 
 libraryDependencies ++= Seq(
   "com.spingo" %% "op-rabbit-core"        % opRabbitVersion,

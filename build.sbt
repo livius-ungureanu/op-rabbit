@@ -13,10 +13,11 @@ val appProperties = {
 
 val assertNoApplicationConf = taskKey[Unit]("Makes sure application.conf isn't packaged")
 
+
 val commonSettings = Seq(
   organization := "com.spingo",
   version := appProperties.getProperty("version"),
-  scalaVersion := "2.12.10",
+  scalaVersion := "2.11.8",
   crossScalaVersions := Seq("2.12.10", "2.13.1"),
   libraryDependencies ++= Seq(
     "com.chuusai" %%  "shapeless" % "2.3.3",
